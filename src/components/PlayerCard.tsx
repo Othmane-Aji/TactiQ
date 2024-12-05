@@ -4,16 +4,18 @@ import type { Player } from '../types';
 
 interface PlayerCardProps {
   player: Player;
+  onDelete: () => void;  // Added onDelete prop
+  onUpdate: () => void;  // Added onUpdate prop
 }
 
-const PlayerCard: React.FC<PlayerCardProps> = ({ player }) => {
+const PlayerCard: React.FC<PlayerCardProps> = ({ player, onDelete, onUpdate }) => {
   return (
     <div className="bg-white rounded-xl shadow-sm p-4">
       <div className="aspect-square rounded-lg overflow-hidden mb-4">
         {player.image ? (
-          <img 
-            src={player.image} 
-            alt={player.name} 
+          <img
+            src={player.image}
+            alt={player.name}
             className="w-full h-full object-cover"
           />
         ) : (
@@ -31,6 +33,22 @@ const PlayerCard: React.FC<PlayerCardProps> = ({ player }) => {
         <span className="px-2 py-1 bg-blue-100 text-blue-700 text-xs rounded-full">
           Age: {player.age}
         </span>
+      </div>
+
+      {/* Buttons for delete and update */}
+      <div className="mt-4 flex gap-2">
+        <button
+          onClick={onDelete}
+          className="bg-red-600 text-white px-4 py-2 rounded-lg hover:bg-red-700"
+        >
+          Delete
+        </button>
+        <button
+          onClick={onUpdate}
+          className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700"
+        >
+          Update
+        </button>
       </div>
     </div>
   );

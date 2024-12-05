@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { 
   Users, Activity, Calendar, BarChart2, FileText, 
-  Settings, LogOut,
+  Settings, LogOut, BrainCircuit 
 } from 'lucide-react';
 
 const Sidebar = () => {
@@ -18,8 +18,8 @@ const Sidebar = () => {
   return (
     <div className="h-screen w-64 bg-emerald-800 text-white p-4 fixed left-0 top-0">
       <div className="flex items-center gap-2 mb-8">
-       
-        <h1 className="text-xl font-bold">FootballAI Pro</h1>
+        <BrainCircuit className="w-6 h-6" />
+        <h1 className="text-xl font-bold">TactiQ</h1>
       </div>
       
       <nav className="space-y-2">

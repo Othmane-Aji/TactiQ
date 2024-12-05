@@ -1,6 +1,6 @@
 import React from 'react';
 import { Bell, Search } from 'lucide-react';
-
+import walidImage from '../assets/images/profile.jpg'; // Correct import
 
 const Header = () => {
   return (
@@ -22,7 +22,7 @@ const Header = () => {
           </button>
           <div className="flex items-center gap-3">
             <img
-              src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?w=100&h=100&fit=crop"
+              src={walidImage} 
               alt="User"
               className="w-8 h-8 rounded-full object-cover"
             />
