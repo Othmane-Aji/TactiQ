@@ -106,7 +106,7 @@ Ensure you have the following installed:
 
 5. Start the development server:  
    ```bash
-   npm start
+   npm run dev
    ```  
 
 6. 🌐 Open your browser and visit:  
