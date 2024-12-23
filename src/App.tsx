@@ -9,6 +9,8 @@ import Matches from './pages/Matches';
 import Statistics from './pages/Statistics';
 import Reports from './pages/Reports';
 import Settings from './pages/Settings';
+import SalaryPrediction from './pages/SalaryPrediction';
+
 
 function App() {
   return (
@@ -24,6 +26,7 @@ function App() {
           <Route path="statistics" element={<Statistics />} />
           <Route path="reports" element={<Reports />} />
           <Route path="settings" element={<Settings />} />
+          <Route path="SalaryPrediction" element={<SalaryPrediction />} />
         </Route>
       </Routes>
     </Router>
