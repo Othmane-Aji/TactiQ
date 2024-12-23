@@ -1,9 +1,10 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { 
-  Users, Activity, Calendar, BarChart2, FileText, 
+  Users, Activity, Calendar, BarChart2, FileText,
   Settings, LogOut, BrainCircuit 
 } from 'lucide-react';
+
 
 const Sidebar = () => {
   const menuItems = [
@@ -13,7 +14,10 @@ const Sidebar = () => {
     { icon: BarChart2, label: 'Statistics', path: '/statistics' },
     { icon: FileText, label: 'Reports', path: '/reports' },
     { icon: Settings, label: 'Settings', path: '/settings' },
+    { icon: BrainCircuit, label: 'Salary Prediction', path: '/SalaryPrediction' }
+ // New menu item
   ];
+
 
   return (
     <div className="h-screen w-64 bg-emerald-800 text-white p-4 fixed left-0 top-0">
