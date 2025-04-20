@@ -1,13 +1,13 @@
 
-# ⚽ TactiQ: AI-Powered Football Management System  
+# TactiQ: AI-Powered Football Management System  
 
-## 🌟 Project Overview  
+## Project Overview  
 
 **TactiQ** is an advanced football management system powered by Artificial Intelligence. It provides teams with detailed performance analysis, tactical recommendations, and strategic insights to help them achieve their goals. Whether you're a coach, analyst, or team manager, **TactiQ** is here to revolutionize your workflow!  
 
 ---
 
-## 🚀 Fonctionnalité  
+## Fonctionnalité  
 
 - **Analyse des Performances** : Suivez les statistiques des joueurs et des équipes en temps réel.  
 - **Suggestions Tactiques** : Recevez des recommandations stratégiques basées sur les données de jeu.  
@@ -24,7 +24,7 @@
 
 ---
 
-## 🔍 Analyse et Recherche  
+## Analyse et Recherche  
 
 - Exploration des métriques clés :  
   - Possession du ballon  
@@ -34,7 +34,7 @@
 
 ---
 
-## 🤖 Prédictions basées sur l’IA  
+## Prédictions basées sur l’IA  
 
 - Prédiction des résultats de matchs.  
 - Estimation des performances des joueurs.  
@@ -43,15 +43,15 @@
 
 ---
 
-## 💻 Interface Utilisateur  
+## Interface Utilisateur  
 
-- 🛠️ **Frontend** : Développé avec React et TypeScript (TSX).  
-- 🖥️ **Ergonomie** : Interface intuitive et adaptée à une utilisation professionnelle.  
-- 📊 **Visualisations** : Graphiques interactifs créés avec Chart.js et Plotly.  
+- **Frontend** : Développé avec React et TypeScript (TSX).  
+- **Ergonomie** : Interface intuitive et adaptée à une utilisation professionnelle.  
+- **Visualisations** : Graphiques interactifs créés avec Chart.js et Plotly.  
 
 ---
 
-## 🤝 Collaboration et Rapports  
+## Collaboration et Rapports  
 
 - **Partage de Rapports** : Exportez des rapports en PDF ou Excel.  
 - **Collaboration Équipe** : Interface dédiée pour les entraîneurs et analystes.  
@@ -59,7 +59,7 @@
 
 ---
 
-## 🗂️ Project Structure  
+## Project Structure  
 
 ```
 tactiq/
@@ -76,7 +76,7 @@ tactiq/
 
 ---
 
-## ⚙️ Getting Started  
+## Getting Started  
 
 ### Prerequisites  
 
@@ -87,12 +87,12 @@ Ensure you have the following installed:
 
 ### Installation  
 
-1. 📂 Clone the repository:  
+1. Clone the repository:  
    ```bash
    git clone https://github.com/yourusername/tactiq.git
    ```  
 
-2. 📁 Navigate to the project directory:  
+2. Navigate to the project directory:  
    ```bash
    cd tactiq
    ```  
@@ -109,7 +109,7 @@ Ensure you have the following installed:
    npm start
    ```  
 
-6. 🌐 Open your browser and visit:  
+6. Open your browser and visit:  
    ```
    http://localhost:3000
    ```  
@@ -129,15 +129,15 @@ We welcome contributions! Please follow these steps:
    ```bash
    git commit -m "Add feature description"
    ```  
-4. 📤 Push to your branch:  
+4. Push to your branch:  
    ```bash
    git push origin feature-name
    ```  
-5. 🔄 Open a Pull Request.  
+5. Open a Pull Request.  
 
 ---
 
-## 🖋️ Auteurs  
+## Auteurs  
 
 - **Othmane Aji**  
 - **Souhail Bouri**  
@@ -146,7 +146,7 @@ We welcome contributions! Please follow these steps:
 
 ---
 
-## 📜 License  
+## License  
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.  
 
