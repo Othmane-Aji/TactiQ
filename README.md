@@ -16,7 +16,7 @@
 
 ---
 
-## 📂 Collecte des Données  
+## Collecte des Données  
 
 - Intégration des données via fichiers CSV ou API externes.  
 - Traitement des données pour des matchs spécifiques ou des périodes prolongées.  
@@ -150,7 +150,3 @@ We welcome contributions! Please follow these steps:
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.  
 
----
-
-🎯 **Achieve your football goals with TactiQ!** 🚀  
-```  
